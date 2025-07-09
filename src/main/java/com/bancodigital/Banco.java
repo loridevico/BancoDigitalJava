@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Banco {
 
-    private List<Conta> contas;
+    private final List<Conta> contas;
 
     public Banco() {
         this.contas = new ArrayList<>();
