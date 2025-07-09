@@ -11,14 +11,6 @@ public class Banco {
         this.contas = new ArrayList<>();
     }
 
-    public List<Conta> getContas() {
-        return contas;
-    }
-
-    public void setContas(List<Conta> contas) {
-        this.contas = contas;
-    }
-
     public void adicionarConta(Conta conta) {
         this.contas.add(conta);
     }
